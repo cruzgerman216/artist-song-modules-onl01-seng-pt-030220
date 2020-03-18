@@ -1,5 +1,5 @@
 require 'pry'
-'../lib/concerns/memorable'
+'./concerns/memorable'
 class Artist
   extend Memorable
   attr_accessor :name
