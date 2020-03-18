@@ -1,5 +1,4 @@
 require_relative 'spec_helper.rb'
-require_relative '../lib/concerns/memorable'
 describe Song do
   before(:each) do
     Song.reset_all
