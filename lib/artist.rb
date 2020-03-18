@@ -3,7 +3,7 @@ class Artist
   attr_accessor :name
   attr_reader :songs
   extend Memorable
-  include Findable
+  extend Findable
   @@artists = []
 
   def initialize
